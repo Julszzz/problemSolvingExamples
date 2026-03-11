@@ -1,3 +1,6 @@
+# this code calculates the cube root of a number
+# using a bisection algorithm
+
 cube = 1000
 epsilon = 0.01
 num_guesses = 0
