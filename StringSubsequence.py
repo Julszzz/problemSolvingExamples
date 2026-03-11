@@ -1,5 +1,4 @@
-def count_subsequence(text, pattern):
-    """
+"""
     Counts the number of times 'pattern' occurs as a subsequence in 'text'.
 
     Args:
@@ -8,7 +7,9 @@ def count_subsequence(text, pattern):
 
     Returns:
         The number of occurrences of 'pattern' as a subsequence in 'text'.
-    """
+"""
+
+def count_subsequence(text, pattern):
     text_len = len(text)
     pattern_len = len(pattern)
 
