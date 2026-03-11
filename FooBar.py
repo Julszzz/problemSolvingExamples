@@ -1,9 +1,12 @@
-i = 1
-for i in range(16):
- if i%5 == 0:
+# Classic Foo Bar code
+
+for i in range(1,16):
+ if i%3 == 0 and i%5 == 0:
+  print('FooBar')
+ elif i%3 == 0:
   print('Foo')
- elif i%7 == 0:
+ elif i%5 == 0:
   print('Bar')
  else:
   print(i)
- i += 1
+ 
